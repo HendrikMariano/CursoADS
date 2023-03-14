@@ -1,1 +1,89 @@
 Hendrik Mariano
+
+
+Comando que se utilizara sempre para fazer commit no github
+
+
+Os comandos tem que ser pelo CMD do windows ou besh do linux, mas aqui iremos abordar pelo windows
+
+apos ter criado a pasta Tecnicas em meus documentos devemos clonar o repositorio 
+
+Abaixo segue os comandos para clonar e subir os codigos ou arquivos para o github
+
+C:\Users\autologon\Documents>cd Tecnicas
+
+C:\Users\autologon\Documents\Tecnicas>git clone https://github.com/HendrikMariano/CursoADS.git
+Cloning into 'CursoADS'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\autologon\Documents\Tecnicas>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 240D-8653
+
+ Pasta de C:\Users\autologon\Documents\Tecnicas
+
+14/03/2023  19:47    <DIR>          .
+14/03/2023  19:42    <DIR>          ..
+14/03/2023  19:47    <DIR>          CursoADS
+               0 arquivo(s)              0 bytes
+               3 pasta(s)   122.897.129.472 bytes disponíveis
+
+C:\Users\autologon\Documents\Tecnicas>cd CursoADS
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS>git update
+Warning! `git update` has been deprecated;
+Please use `git update-git-for-windows` instead.
+Git for Windows 2.39.1.windows.1 (64-bit)
+Update 2.40.0.windows.1 is available
+Download and install Git for Windows v2.40.0.windows.1 [N/y]? y
+################################################################################################################ 100.0%
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS>git add .
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS>git commit -m "primeiro arquivo"
+[main 5c0637a] primeiro arquivo
+ Committer: Auto Logon <autologon@CSED.LAB>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 aula_04.txt
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 301 bytes | 150.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/HendrikMariano/CursoADS.git
+   728975f..5c0637a  main -> main
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS>guit push
+'guit' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS>git push
+Everything up-to-date
+
+C:\Users\autologon\Documents\Tecnicas\CursoADS> 
+
