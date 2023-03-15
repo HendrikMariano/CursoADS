@@ -4,7 +4,7 @@ Hendrik Mariano
 Comando que se utilizara sempre para fazer commit no github
 
 SEMPRE QUE FOR FAZENDO MODICAÇOES NO ARQUIVO,ENTRAR VIA CMD E SEGUIR A ORDEM DE COMANDOS PARA ATUALIZAR O GITHUB
-
+Primeiro de tudo usar o comando git clone,,, copiar o link na aba http e colar no cmd, feito isso os comandos abaixo a serem executados 
 01 GIT ADD .
 02 GIT COMMIT -M "DESCRIÇAO QUALQUER"
 03 GIT COMMIT -A SE CASO NAO ATUALIZAR
